@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 rootProject.name = "TestApplication"
 include(":automotive")
- 
+include(":mediasample")
+include(":buildpointsofinteres")
+include(":core")
